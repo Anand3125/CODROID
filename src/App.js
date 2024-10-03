@@ -5,21 +5,27 @@ import { Routes, Route } from "react-router-dom";
 import ResponsiveAppBar from './components/AppBar';
 
 import Footer from './components/Footer/Footer';
-import Contact from './modules/Contact';
+// import Contact from './modules/Contact';
 import HeroSection from './components/Hero/CarouselBig';
 import StatisticsSection from './components/StatCard/StatisticsSection';
 import Products from './components/Products';
 import Category from './components/Category';
+import SignInSide from './components/Log/SignInSide';
+import SignUpCard from './components/Log/SignUpCard';
+
 // import Home from './modules/Home';
 
 function App() {
   return (
     <>
+      
+      
       <ResponsiveAppBar />
       <HeroSection />
       <Category />
       <Products />
       <StatisticsSection />
+       
      
 
       <Container>
@@ -41,6 +47,8 @@ function App() {
      
       {/* <StatisticsSection /> */}
       <Footer />
+      <SignUpCard/>
+      <SignInSide/>
     </>
   );
 }
