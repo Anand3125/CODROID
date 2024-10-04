@@ -12,6 +12,8 @@ import Products from './components/Products';
 import Category from './components/Category';
 import SignInSide from './components/Log/SignInSide';
 import SignUpCard from './components/Log/SignUpCard';
+import ProductsCategory from './components/Categories';
+
 
 // import Home from './modules/Home';
 
@@ -23,7 +25,7 @@ function App() {
       <ResponsiveAppBar />
       <HeroSection />
       <Category />
-      <Products />
+      <ProductsCategory/>
       <StatisticsSection />
        
      
@@ -49,6 +51,7 @@ function App() {
       <Footer />
       <SignUpCard/>
       <SignInSide/>
+      
     </>
   );
 }
